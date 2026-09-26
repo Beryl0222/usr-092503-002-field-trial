@@ -5,6 +5,6 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "build": "node --check src/index.js"
+    "build": "node --check src/index.js && node --check src/cli.js && node --check src/app.js && node --check src/http/server.js && node --check src/service/dispatchService.js && node --check src/domain/model.js && node --check src/domain/rules.js && node --check src/store/eventStore.js"
   }
 }
